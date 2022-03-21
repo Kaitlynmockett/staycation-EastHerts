@@ -14,22 +14,23 @@
 
 h1 {
     font-size: 60px;
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
   }
 
 h2{
-
+    font-size: 48px;
 }
 
 h3{
-
+    font-size: 24px
 }
 
-h4{
-
+p{ 
+    font-size: 18px;
 }
+
 body{
     max-width: 1920px;
     height: 100vh;
@@ -38,13 +39,11 @@ body{
 .bg{
     height: 804px;
     background: url(./bg.svg) no-repeat;
-    mix-blend-mode: multiply;
-    opacity: 0.85;
 }
 
 @media screen and (min-width: 1440px) and (max-width: 1920px){
     .bg{
-        background: url(./bg-big.svg) no-repeat;
+        background: url(./bg.svg) no-repeat;
     }
 }
 a:link{
