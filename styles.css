@@ -101,6 +101,16 @@ nav{
     font-weight: bold;
 }
 
+.btn{
+    background-color: #FFFFFF;
+    border: var(--tertiary-col) 3px solid;
+    border-radius: 25px;
+    height: 50px;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 /* HERO TITLE AND CTA*/
 
 .cta{
@@ -124,7 +134,7 @@ span{
 }
 
 #hero{
-    padding-bottom: 250px;
+    padding-bottom: 200px;
 }
 
 section{
@@ -143,11 +153,19 @@ section{
     justify-content: space-evenly;
 }
 
+.row-content{
+    align-self: center;
+}
+
+.row-title{
+    color: var(--primary-col)
+}
+
 .row-text{
     max-width: 500px;
-    align-self: center;
     font-weight: 300;
 }
+
 .mid-row{
     flex-direction: row-reverse;
 }
@@ -155,16 +173,30 @@ section{
 /* Banner CTA */
 #banner-cta{
     max-width: 100vw;
-    height: 220px;
     background-color: var(--secondary-col);
 }
 
 .banner-cta{
     display: flex;
+    justify-content: center;
+    padding: 40px 0px 40px 0px;
 }
 
+.banner-title{
+    color: var(--primary-col);
+    font-size: 48px;
+    width: 75%;
+}
 
-/* Bigger displays styles */
+.enq-btn{
+    align-self: center;
+}
+
+.enquire{
+    color: var(--primary-col)
+}
+
+/* Different displays styles */
 
 @media screen and (min-width: 1220px) and (max-width: 1920px){
     .bg{
@@ -186,7 +218,7 @@ section{
         padding-top: 320px;
     }
     #hero {
-        padding-bottom: 300px;
+        padding-bottom: 150px;
     }
 }
 
