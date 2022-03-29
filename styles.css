@@ -194,6 +194,14 @@ section{
 .enquire{
     color: var(--primary-col)
 }
+/* Carousel card */
+.card{
+    display: flex;
+    justify-content: space-between;
+    max-width: 33vw;
+    border: 1px solid black;
+}
+
 
 /* Different displays styles */
 
