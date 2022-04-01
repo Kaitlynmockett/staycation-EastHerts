@@ -47,14 +47,13 @@ body{
 }
 
 a:link{
-    color: var(--tertiary-col);
+    color: var(--secondary-col);
     text-decoration: none;
 }
 
 a:visited{
-    color: var(--visited-col);
+    color: var(--tertiary-col);
 }
-
 
 p{
     font-size: 16px;
