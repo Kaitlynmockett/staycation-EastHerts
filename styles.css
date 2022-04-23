@@ -104,7 +104,7 @@ nav{
     background-color: #FFFFFF;
     border: var(--tertiary-col) 3px solid;
     border-radius: 25px;
-    height: 50px;
+    height: 70px;
     width: 100%;
     padding-right: 10px;
     padding-left: 10px;
@@ -236,15 +236,17 @@ section{
     grid-template-rows: 50% 50%;
     justify-content: space-between;
     border-radius: 25px;
-    height: 60vh;
     max-width: 25vw;
     box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    transform: translate(175px, 0px);
 }
 
 .carousel-container{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    grid-gap: 1em;
+    overflow: hidden;
 }
 
 
@@ -252,7 +254,7 @@ section{
     display: flex;
     flex-direction: column;
     padding-left: 15px;
-    padding-top: 20px;
+
     max-width: 25vw;
 }
 #card-title{
@@ -263,7 +265,9 @@ section{
 .hide{
     display: none;
 }
-
+.pagination{
+    text-align: center;
+}
 /* Different displays styles */
 
 @media screen and (min-width: 1220px){

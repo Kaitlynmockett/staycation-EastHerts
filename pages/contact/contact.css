@@ -39,7 +39,6 @@ p{
 body{
     max-width: 1920px;
     height: 100vh;
-    background: var(--background-col);
 }
 
 .bg{
@@ -154,3 +153,10 @@ textarea{
     padding-left: 15px;
 }
 
+.heading{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.heading-img{
+    height: 10vh;
+}

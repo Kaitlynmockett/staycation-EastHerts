@@ -37,7 +37,6 @@ p{
 body{
     max-width: 1920px;
     height: 100vh;
-    background: var(--background-col);
 }
 
 
@@ -129,3 +128,20 @@ nav{
 td{
     border: 1px solid black;
 }
+
+.desc{
+    padding-bottom: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-img{
+    height: 200px;
+    width: 160px;
+    padding-bottom: 10px;
+}
+

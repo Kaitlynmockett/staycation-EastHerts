@@ -23,8 +23,6 @@ h1 {
 
 h2{
     font-size: 48px;
-    width: 500px;
-    text-align: center;
 }
 
 h3{
@@ -38,7 +36,6 @@ p{
 body{
     max-width: 1920px;
     height: 100vh;
-    background: var(--background-col);
 }
 
 
@@ -115,10 +112,14 @@ nav{
 
 .desc-img{
     width: 30vw;
-    height: 30vh;
 }
 
 .split-images{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.col-1{
+    text-align: center;
 }
